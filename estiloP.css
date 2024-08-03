@@ -9,6 +9,8 @@ body{
         background-color: rgb(102, 86, 86);
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        margin-left:900px;
 }
 h1{
     font-family: "Playwrite AR", cursive; 
@@ -23,8 +25,47 @@ h1{
     border: 2px solid black;
    width: 20%;
    height: 100%;
+   border-radius: 10px;
+   box-shadow: 10px 10px 5px rgb(87, 67, 67);
+   padding: 30px;
 }
 
 p{
 margin: 20px;
+color: rgb(187, 170, 170)
+}
+
+.pt5{
+    color: rgb(187, 170, 170);
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 56px;
+    gap: 10px;
+}
+
+.bolinha{
+    width: 50px;
+    height: auto;
+    transition: 500ms linear;
+}
+
+.bolinha:hover{
+    transform: scale(1.1);
+}
+
+button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:  rgb(187, 170, 170);
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
